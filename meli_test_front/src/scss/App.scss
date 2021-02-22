@@ -1,0 +1,169 @@
+a:hover {
+  text-decoration: none;
+}
+
+.navback {
+  background-color: #ffe600;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_search {
+  padding-right: 0px;
+  padding-left: 0px;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+
+  div {
+    input {
+      height: 34px;
+      width: 95%;
+      border: none;
+      border-radius: 3px;
+      &::placeholder {
+        color: #999999;
+        font-size: 18px;
+      }
+    }
+    button {
+      height: 34px;
+      width: 5%;
+      border: 0 none;
+      cursor: pointer;
+      outline: none;
+      border-radius: 3px;
+    }
+  }
+}
+
+.bann_breadcrumb {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+
+  .prop_breadcrumb {
+    text-decoration: none;
+    color: #999999;
+    margin-right: 5px;
+    &:last-child {
+      font-weight: bold;
+    }
+    .svg_breadcrumb{
+      margin-left: 5px;
+      height: 100%;
+    }
+  }
+  
+}
+
+.item_cont {
+  &:hover {
+    text-decoration: none;
+  }
+
+  height: 208px;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  display: grid;
+  grid-template-columns: 3fr 4fr 4fr;
+
+  .img_items {
+    padding: 16px;
+    height: 180px;
+    width: 180px;
+    border-radius: 4px;
+  }
+  div .price_shipping {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  div div h2 {
+    font-size: 24px;
+    margin-right: 12px;
+    color: #333333;
+  }
+  div h3 {
+    font-size: 18px;
+    color: #333333;
+  }
+
+  h4 {
+    padding-left: 50%;
+    margin-top: 45px;
+    font-size: 12px;
+    color: #666666;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.item_datail {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: 6fr;
+  margin-right: 32px;
+  img {
+    width: 680px;
+  }
+  div {
+    margin-top: 32px;
+    margin-right: 32px;
+    h1 {
+      margin-top: 32px;
+      margin-bottom: 32px;
+      font-size: 46px;
+      color: #333333;
+    }
+    h3 {
+      margin-top: 16px;
+      font-size: 24px;
+      color: #333333;
+      font-weight: bold;
+    }
+    h4 {
+      font-size: 14px;
+      color: #333333;
+    }
+    button {
+      width: 100%;
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      padding: 0.375rem 0.75rem;
+      border-radius: 4px;
+      color: #fff;
+      background-color: #3483fa;
+      border-color: #3483fa;
+      outline: none;
+      &:hover {
+        color: #fff;
+        background-color: #3483fa;
+        border-color: #3483fa;
+      }
+    }
+  }
+  h2 {
+    margin-top: 80px;
+    font-size: 28px;
+    color: #333333;
+  }
+  p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: #999999;
+  }
+}
+
