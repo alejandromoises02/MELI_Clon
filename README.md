@@ -9,6 +9,14 @@ Alejandro Fertnandez https://github.com/alejandromoises02/
 ==============================
 
 ==============================
+Inicializacion
+Node
+npm i
+cd .\meli_test_front\
+npm i
+==============================
+
+==============================
 DEPENDENCIAS
 
 Desarrollo de Endpoint
