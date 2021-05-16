@@ -1,5 +1,5 @@
 ==============================
-Test como proceso de seleccion para cargo Front End developer en MercadoLibre
+Clon buscador MercadoLibre, copnsulta de API
 ============================== 
 
 
