@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 const fetch = require("node-fetch");
-const puerto = 3001;
+const puerto = process.env.PORT || 3001;
 const cors = require("cors");
 
 app.use(cors());
